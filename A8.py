@@ -3,7 +3,7 @@ class PrivateMemberException(Exception):
 
 
 class A:
-    def _init_(self, a, b, c):
+    def __init__(self, a, b, c):
         self.__a = a
         self._b = b
         self.c = c
